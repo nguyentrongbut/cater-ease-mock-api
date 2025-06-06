@@ -1,10 +1,10 @@
 const jsonServer = require('json-server')
-const server = jsonServer.create()
+const index = jsonServer.create()
 const router = jsonServer.router('db.json')
 const middlewares = jsonServer.defaults()
 
-server.use(middlewares)
-server.use(router)
-server.listen(4000, () => {
+index.use(middlewares)
+index.use(router)
+index.listen(4000, () => {
     console.log('JSON Server is running')
 })
