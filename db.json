@@ -15,5 +15,85 @@
       "address": "dddd",
       "role": "customer"
     }
+  ],
+  "event-menus": [
+    {
+      "id": "1",
+      "name": "Gourmet Delights",
+      "slug": "gourmet-delights",
+      "cuisine": "Italian",
+      "rating": 4.8,
+      "reviews": 124,
+      "location": "Downtown",
+      "minOrder": 50,
+      "image": "https://images.unsplash.com/photo-1655427233860-9492b25da5a8?q=80&w=1875&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "specialties": ["Wedding", "Corporate"],
+      "priceRange": 5000
+    },
+    {
+      "id": "2",
+      "name": "Spice Route",
+      "slug": "spice-route",
+      "cuisine": "Indian",
+      "rating": 4.6,
+      "reviews": 89,
+      "location": "Midtown",
+      "minOrder": 40,
+      "image": "https://images.unsplash.com/photo-1567239428954-c510c1bb1ba9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "specialties": ["Birthday", "Festival"],
+      "priceRange": 6000
+    },
+    {
+      "id": "3",
+      "name": "Fresh & Local",
+      "slug": "fresh-local",
+      "cuisine": "American",
+      "rating": 4.9,
+      "reviews": 156,
+      "location": "Uptown",
+      "minOrder": 60,
+      "image": "https://plus.unsplash.com/premium_photo-1675366072716-5df080d0e5df?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "specialties": ["Corporate", "Casual"],
+      "priceRange": 7000
+    },
+    {
+      "id": "4",
+      "name": "Mediterranean Magic",
+      "slug": "mediterranean-magic",
+      "cuisine": "Mediterranean",
+      "rating": 4.7,
+      "reviews": 203,
+      "location": "Westside",
+      "minOrder": 45,
+      "image": "https://plus.unsplash.com/premium_photo-1733342404499-fcf5d16eb8c8?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "specialties": ["Wedding", "Casual"],
+      "priceRange": 8000
+    },
+    {
+      "id": "5",
+      "name": "Asian Fusion",
+      "slug": "asian-fusion",
+      "cuisine": "Asian",
+      "rating": 4.5,
+      "reviews": 178,
+      "location": "Downtown",
+      "minOrder": 35,
+      "image": "https://images.unsplash.com/photo-1511910849309-0dffb8785146?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "specialties": ["Corporate", "Birthday"],
+      "priceRange": 9000
+    },
+    {
+      "id": "6",
+      "name": "Mexican Fiesta",
+      "slug": "mexican-fiesta",
+      "cuisine": "Mexican",
+      "rating": 4.8,
+      "reviews": 145,
+      "location": "Southside",
+      "minOrder": 30,
+      "image": "https://plus.unsplash.com/premium_photo-1678481247468-e80de4e08f16?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "specialties": ["Festival", "Casual"],
+      "priceRange": 10000
+    }
   ]
 }
