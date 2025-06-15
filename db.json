@@ -82,12 +82,19 @@
       "id": "1",
       "name": "Gourmet Delights",
       "slug": "gourmet-delights",
+      "description": "Award-winning Italian catering service specializing in authentic recipes passed down through generations. We use only the finest ingredients to create memorable dining experiences for your special events.",
       "cuisine": "Italian",
       "rating": 4.8,
       "reviews": 124,
       "location": "Downtown",
       "minOrder": 50,
       "image": "https://images.unsplash.com/photo-1655427233860-9492b25da5a8?q=80&w=1875&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "images": [
+        "https://images.unsplash.com/photo-1575488426720-2e840b6f2462?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1664202219756-4f4c7fe0bb5a?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://images.unsplash.com/photo-1630960411440-10f7b59717ba?q=80&w=2128&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "https://plus.unsplash.com/premium_photo-1675365977316-b69899b7bca0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+      ],
       "specialties": [
         "Wedding",
         "Corporate"
@@ -173,6 +180,32 @@
         "Casual"
       ],
       "priceRange": 10000
+    }
+  ],
+  "reviews" : [
+    {
+      "id": "1",
+      "foodId": "1",
+      "name": "Sarah Johnson",
+      "rating": 5,
+      "createdAt": "2 weeks ago",
+      "comment": "Absolutely amazing food for our wedding! The team was professional and the presentation was beautiful."
+    },
+    {
+      "id": "2",
+      "foodId": "1",
+      "name": "Mike Chen",
+      "rating": 4,
+      "createdAt": "1 month ago",
+      "comment": "Great corporate catering service. Food arrived on time and was delicious. Will definitely book again."
+    },
+    {
+      "id": "3",
+      "foodId": "1",
+      "name": "Emily Davis",
+      "rating": 5,
+      "createdAt": "2 months ago",
+      "comment": "The lasagna was incredible! Perfect for our family gathering. Highly recommend."
     }
   ]
 }
